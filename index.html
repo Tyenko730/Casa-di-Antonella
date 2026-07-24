@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casa di Antonella - Guest Guide</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;background:#f8f7f2;color:#333;line-height:1.6}
+header{
+height:100vh;
+background-image:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+url('https://upload.wikimedia.org/wikipedia/commons/3/37/Nora%2C_Pula%2C_Sardinia.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:#fff;
+}
+.hero h1{font-size:3.5rem}
+.hero p{font-size:1.3rem;margin:15px 0}
+.btn{display:inline-block;background:#0b6b6b;color:#fff;padding:14px 24px;text-decoration:none;border-radius:8px}
+nav{position:sticky;top:0;background:#fff;padding:15px;display:flex;justify-content:center;gap:20px;flex-wrap:wrap;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+nav a{text-decoration:none;color:#0b6b6b;font-weight:bold}
+.lang{margin-left:30px;font-weight:bold}
+section{max-width:1200px;margin:auto;padding:60px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
+.card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 3px 10px rgba(0,0,0,.08)}
+.card img{width:100%;height:220px;object-fit:cover}
+.card div{padding:18px}
+footer{background:#0b6b6b;color:#fff;text-align:center;padding:30px;margin-top:50px}
+</style>
+</head>
+<body>
+
+<header>
+<div class="hero">
+<h1>Benvenuti a Casa di Antonella</h1>
+<p>Pula • Sud Sardegna</p>
+<p>Tra mare cristallino, archeologia e relax.</p>
+<a class="btn" href="#tour">Inizia il tour</a>
+</div>
+</header>
+
+<nav>
+<a href="#tour">🏠 La Casa</a>
+<a href="#wifi">📶 Wi‑Fi</a>
+<a href="#spiagge">🏖 Spiagge</a>
+<a href="#ristoranti">🍝 Ristoranti</a>
+<a href="#contatti">☎ Contatti</a>
+<span class="lang">🌍 IT | EN | DE | FR</span>
+</nav>
+
+<section id="tour">
+<h2>🏠 Tour della Casa</h2>
+<div class="grid">
+<div class="card">
+<img src="https://picsum.photos/700/450?random=1">
+<div><h3>Soggiorno</h3><p>Segnaposto: qui inseriremo le foto reali della casa.</p></div>
+</div>
+<div class="card">
+<img src="https://picsum.photos/700/450?random=2">
+<div><h3>Cucina</h3><p>Cucina attrezzata con tutto il necessario.</p></div>
+</div>
+<div class="card">
+<img src="https://picsum.photos/700/450?random=3">
+<div><h3>Camera</h3><p>Camera luminosa e confortevole.</p></div>
+</div>
+</div>
+</section>
+
+<section id="wifi">
+<h2>📶 Wi‑Fi</h2>
+<p><strong>Rete:</strong> CASA_DI_ANTONELLA</p>
+<p><strong>Password:</strong> benvenuti2026</p>
+<p>📱 Inserire QR Code.</p>
+</section>
+
+<section id="spiagge">
+<h2>🏖 Le spiagge del territorio</h2>
+<div class="grid">
+<div class="card">
+<img src="https://picsum.photos/700/450?random=11">
+<div><h3>Nora</h3><p>Area archeologica e mare cristallino.</p></div>
+</div>
+<div class="card">
+<img src="https://picsum.photos/700/450?random=12">
+<div><h3>Chia</h3><p>Dune e acque turchesi.</p></div>
+</div>
+<div class="card">
+<img src="https://picsum.photos/700/450?random=13">
+<div><h3>Tuerredda</h3><p>Una delle spiagge più famose del Sud Sardegna.</p></div>
+</div>
+</div>
+</section>
+
+<section id="ristoranti">
+<h2>🍝 Ristoranti (Demo)</h2>
+<ul>
+<li>Su Furriadroxu</li>
+<li>Zia Leunora</li>
+<li>Da Sandro</li>
+<li>Solaria</li>
+</ul>
+</section>
+
+<section id="contatti">
+<h2>☎ Contatti</h2>
+<p>Antonella</p>
+<p>WhatsApp</p>
+<p>Email</p>
+</section>
+
+<footer>
+Casa di Antonella • Guest Guide Demo
+</footer>
+
+</body>
+</html>
